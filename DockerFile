@@ -1,7 +1,6 @@
 # Use official Node.js LTS Alpine image
 FROM node:22-alpine
 
-# Set working directory
 WORKDIR /app
 
 # Copy only package files first to leverage Docker layer caching
